@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Page Title -->
+    <title>Expense Tracker</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Dashboard Heading -->
+    <h1>Expense Tracker Dashboard</h1>
+
+    <!-- Income Section -->
+    <div class="box">
+        <h3>Total Income</h3>
+        <p id="income">₹0</p>
+    </div>
+
+    <!-- Expense Section -->
+    <div class="box">
+        <h3>Total Expense</h3>
+        <p id="expense">₹0</p>
+    </div>
+
+    <!-- Balance Section -->
+    <div class="box">
+        <h3>Balance</h3>
+        <p id="balance">₹0</p>
+    </div>
+
+    <!-- Add Transaction -->
+    <h2>Add Transaction</h2>
+
+    <!-- Description Input -->
+    <input type="text" id="desc" placeholder="Description">
+    <br><br>
+
+    <!-- Amount Input -->
+    <input type="number" id="amount" placeholder="Amount">
+    <br><br>
+
+    <!-- Buttons -->
+    <button onclick="addIncome()">Add Income</button>
+    <button onclick="addExpense()">Add Expense</button>
+
+    <!-- Transaction History -->
+    <h2>Transaction History</h2>
+    <ul id="list"></ul>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>

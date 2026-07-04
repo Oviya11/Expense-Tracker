@@ -1,0 +1,83 @@
+/* Page Style */
+body{
+    margin:0;
+    padding:20px;
+    font-family:Arial,sans-serif;
+    text-align:center;
+    background:#0f0f1a;
+    color:white;
+}
+
+/* Main Heading */
+h1{
+    color:#c77dff;
+}
+
+/* Dashboard Boxes */
+.box{
+    width:300px;
+    margin:15px auto;
+    padding:20px;
+    background:#1a1a2e;
+    border:2px solid #c77dff;
+    border-radius:20px;
+    box-shadow:0 0 15px #c77dff;
+}
+
+/* Income Amount */
+#income{
+    color:#00ff88;
+    font-size:24px;
+    font-weight:bold;
+}
+
+/* Expense Amount */
+#expense{
+    color:#ff4d6d;
+    font-size:24px;
+    font-weight:bold;
+}
+
+/* Balance Amount */
+#balance{
+    color:#c77dff;
+    font-size:24px;
+    font-weight:bold;
+}
+
+/* Input Fields */
+input{
+    width:280px;
+    padding:12px;
+    margin:8px;
+    border:none;
+    border-radius:10px;
+    background:#2a2a40;
+    color:white;
+}
+
+/* Buttons */
+button{
+    padding:12px 20px;
+    margin:5px;
+    border:none;
+    border-radius:10px;
+    background:#c77dff;
+    color:white;
+    cursor:pointer;
+}
+
+/* Button Hover Effect */
+button:hover{
+    opacity:0.8;
+}
+
+/* Transaction List */
+li{
+    list-style:none;
+    width:300px;
+    margin:10px auto;
+    padding:10px;
+    background:#1a1a2e;
+    border-radius:10px;
+}
