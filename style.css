@@ -1,0 +1,141 @@
+/* Page Style */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    padding:20px 15px;
+    font-family:Arial,sans-serif;
+    text-align:center;
+    background:#0f0f1a;
+    color:white;
+}
+
+/* Main Heading */
+h1{
+    color:#c77dff;
+    margin-bottom:25px;
+    font-size:32px;
+}
+
+/* Dashboard Boxes */
+.box{
+    width:100%;
+    max-width:350px;
+    margin:15px auto;
+    padding:20px;
+    background:#1a1a2e;
+    border:2px solid #c77dff;
+    border-radius:18px;
+    box-shadow:0 0 15px #c77dff;
+}
+
+/* Income */
+#income{
+    color:#00ff88;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* Expense */
+#expense{
+    color:#ff4d6d;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* Balance */
+#balance{
+    color:#c77dff;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* Heading */
+h2{
+    margin:25px 0 15px;
+}
+
+/* Input */
+input{
+    width:100%;
+    max-width:350px;
+    padding:14px;
+    margin:8px auto;
+    border:none;
+    border-radius:10px;
+    background:#2a2a40;
+    color:white;
+    font-size:16px;
+    display:block;
+}
+
+/* Buttons */
+button{
+    width:100%;
+    max-width:350px;
+    padding:14px;
+    margin:8px auto;
+    border:none;
+    border-radius:10px;
+    background:#c77dff;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    display:block;
+    transition:.3s;
+}
+
+button:hover{
+    opacity:.8;
+    transform:scale(1.02);
+}
+
+/* Transaction List */
+ul{
+    padding:0;
+}
+
+li{
+    list-style:none;
+    width:100%;
+    max-width:350px;
+    margin:10px auto;
+    padding:12px;
+    background:#1a1a2e;
+    border-radius:10px;
+    word-wrap:break-word;
+}
+
+/* Mobile View */
+@media(max-width:600px){
+
+    body{
+        padding:15px;
+    }
+
+    h1{
+        font-size:26px;
+    }
+
+    h2{
+        font-size:22px;
+    }
+
+    .box{
+        padding:18px;
+    }
+
+    #income,
+    #expense,
+    #balance{
+        font-size:24px;
+    }
+
+    input,
+    button{
+        font-size:15px;
+    }
+}
